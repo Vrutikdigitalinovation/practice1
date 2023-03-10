@@ -1,0 +1,422 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Verdana', sans-serif;
+}
+a{
+    text-decoration:none;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+.product-image {
+    display: flex;
+    align-items: center;
+}
+.product-image img {
+    width: 83px;
+}
+.product-image span {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0;
+    letter-spacing: 0.7px;
+    color: #392f8d;
+}
+.bg-product{
+	box-shadow:0px 0px 30px rgba(128, 128, 128, 0.216);
+	padding:6px 0px;
+	background-color:#D1EEF8;
+	position:sticky;
+	top:0%;
+	z-index:9;
+}
+
+
+.bg-product-body {
+    padding: 75px 0px 50px;
+}
+.product-flex{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.product-box{
+	width:100%;
+	box-shadow:2px 2px 30px #62c6e72e;
+	border-radius:8px;
+	padding:8px 12px;
+	margin-bottom:25px;
+	transition:all 0.5s ease;
+	border:1px solid transparent;
+	cursor:pointer;
+}
+.product-box:hover{
+	border:1px solid grey;
+	box-shadow:none;
+}
+.product-box:hover .product-name h2{
+	color:#D44E8A;
+}
+.product-name h2{
+	text-transform:capitalize;
+	font-size:20px;
+	font-weight:600;
+	margin-bottom:0px;
+	letter-spacing:0.8px;
+}
+.product-img{
+	width:70px;
+	height:70px;
+}
+.product-img img{
+	width:100%;
+	border-radius:8px;
+	object-fit:cover;
+}
+.product-box p{
+	font-size:16px;
+	line-height:1.6;
+	margin:16px 0px;
+	transition:all 0.5s ease;
+}
+
+.product-btn{
+	display:inline-block;
+	width:100%;
+}
+
+.product-btn button {
+    width: auto;
+    height: 25px;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0px 18px 0px 18px;
+    margin: 8px 4px;
+    border: none;
+    box-shadow: 2px 2px 12px #382f8d42;
+    transition: all 0.5s ease;
+}
+.product-btn button:hover{
+	background-image: linear-gradient(32deg,#62C6E7, #392F8D);
+}
+
+.product-btn button a {
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.product-btn button:hover a{
+	color:white;
+}
+
+.product-footer{
+	border-top:1px solid grey;
+	padding:25px 0px;
+}
+.product-footer-text h2 {
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+
+.invest-flex{
+	display: flex;
+	align-items:center;
+}
+.invest-flex h2{
+	margin-bottom:0px;
+	text-transform:capitalize;
+	font-size:22px;
+	font-weight:600;
+	margin-bottom:0px;
+	letter-spacing:0.8px;
+	margin-right:20px;
+}
+.invest-flex a{
+	text-transform:capitalize;
+	color:white;
+	font-size:16px;
+	letter-spacing:0.5px;
+	font-weight:600;
+	background-color:#4CAF50;
+	padding:8px 12px;
+	border:1px solid black;
+	margin-left:50px;
+	transition:all 0.5s ease;
+}
+.invest-flex a:hover{
+	background-color:transparent;
+	border:1px solid #4CAF50;
+	color:black;
+}
+
+
+.invest-section p{
+	font-size:16px;
+	line-height:1.5;
+	margin-top:30px;
+}
+.invest-section span{
+	text-transform:capitalize;
+	font-weight:500;
+}
+.inner-invest{
+	display: flex;
+	align-items:center;
+	margin-bottom:30px;
+}
+.invest-category{
+	width:28%;
+}
+.invest-category h4{
+	text-transform:capitalize;
+	font-weight:600;
+	letter-spacing:0.5px;
+	margin-bottom:0px;
+	font-size: 18px;
+}
+.invest-stock button a{
+	padding:6px 30px;
+	text-transform:capitalize;
+	font-size:18px;
+	display:block;
+	color:black;
+	font-weight:400;
+	background-color:white;
+
+}
+.invest-stock{
+	display: flex;
+	align-items:center;
+	width:72%;
+}
+.invest-stock button{
+	margin-right:20px;
+}
+.invest-stock h5{
+	text-transform:capitalize;
+	margin-bottom:0px;
+	margin-right:100px;
+	font-weight:400;
+	font-size:18px;
+}
+.invest-stock h5 span{
+	margin:25px;
+}
+.progress{
+	width:35%;
+	height:25px;
+	border:1px solid black;
+	border-radius:0px;
+	margin:0px 25px;
+
+}
+.progress-bar{
+	 background-image: linear-gradient(to right,green, yellow);
+	 transition:all 0.8s linear;
+}
+
+.invest-stock table{
+	border:1px solid #1B7CE2;
+}
+.invest-stock table th{
+	text-align:center;
+	background-color:#1B7CE2;
+	color:white;
+	padding:6px 0px;
+}
+.invest-stock table td{
+	padding:8px 0px;
+	text-align:center;
+}
+.invest-type-section{
+	margin-top:80px;
+}
+.main-product-invest{
+	border:1px solid black;
+	padding:70px 100px;
+	border-radius:8px;
+	position: relative;
+	z-index:1;
+}
+.invest-short h5{
+	font-size:18px;
+	font-weight:400;
+	margin-bottom:0px;
+	line-height:1.5;
+}
+.invest-short ul{
+	padding-left:20px;
+	margin-bottom:0px;
+}
+.invest-short ol li{
+	font-size:18px;
+	font-weight:400;
+	margin:10px 0px;
+	line-height:1.5;
+}
+.invest-stock i{
+	margin-right:8px;
+}
+.invest-stock span{
+	text-transform:capitalize;
+}
+.product-invest{
+	padding:100px 0px;
+	position: relative;
+	z-index: 1;
+}
+
+.product-logo{
+	width:70px;
+	height: 70px;
+	position: absolute;
+    top: -35px;
+    border: 1px solid black;
+	border-radius:6px;
+}
+.product-logo img{
+	width: 100%;
+	object-fit:cover;
+	border-radius:6px;
+}
+.invest-short {
+    width: 72%;
+}
+
+
+
+
+
+
+@media only screen and (min-width:1024px) and (max-width:1366px){
+	.product-img {
+		width: 50px;
+		height: 50px;
+	}
+	.product-name h2{
+		font-size:18px;
+	}
+	.product-box p{
+		font-size:14px;
+	}
+}
+
+
+/*..........................product-page responsive.............................. */
+
+
+@media only screen and (min-width:1024px) and (max-width:1366px){
+	.invest-category{
+		width:28%;
+	}
+}
+@media only screen and (min-width:768px) and (max-width:1023px){
+	.main-product-invest{
+		padding:50px 40px;
+	}
+	.invest-type-section{
+		margin-top:50px;
+	}
+	.invest-category h4{
+		font-size:16px;
+		letter-spacing:unset;
+	}
+	.invest-category{
+		width:35%;
+	}
+	.invest-stock{
+		width:65%;
+	}
+	.invest-short {
+    	width: 65%;
+	}
+
+	.progress{
+		width:100%;
+		margin:0px 18px;
+	}
+
+}
+@media only screen and (max-width:767px){
+	.main-product-invest{
+		padding:30px 20px;
+	}
+	.invest-flex{
+		justify-content:space-between;
+	}
+	.invest-flex h2{
+		font-size: 16px;
+		margin-right: 0px;
+		letter-spacing: unset;
+	}
+	.invest-flex a{
+		font-size: 12px;
+		margin-left: 0px;
+		padding: 8px 6px;
+		letter-spacing: unset;
+	}
+
+	.invest-type-section{
+		margin-top:50px;
+	}
+	.inner-invest{
+		display:block;
+	}
+	.invest-category{
+		margin-bottom:8px;
+		width:100%;
+	}
+	.invest-stock{
+		width: 100%;
+	}
+	.invest-short {
+    	width:100%;		
+	}
+
+	.progress{
+		margin:0px 8px;
+		width:100%;
+	}
+	.invest-short h5 {
+		font-size:14px;
+	}
+	.invest-short ol li{
+		font-size:14px;
+	}
+	.invest-stock h5{
+		font-size:14px;
+	}
+	.invest-category h4{
+		font-size:16px;
+		letter-spacing:unset;
+	}
+	.invest-stock button a{
+		padding:4px 30px;
+		font-size:14px;
+	}
+	.invest-stock table th{
+		font-size:16px;
+		padding:4px 0px;
+	}
+	.invest-stock table td{
+		font-size:14px;
+	}
+
+	.invest-section p{
+		text-align:justify;
+	}
+}
